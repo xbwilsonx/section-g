@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Section G</title>
+   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+   <style>
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+
+       body, html {
+           height: 100%;
+           font-family: 'Space Grotesk', sans-serif;
+           background-color: black;
+           color: white;
+       }
+
+       .container {
+           height: 100vh;
+           background-image: url('lord_byron.jpg');
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           position: relative;
+       }
+
+       .header {
+           position: fixed;
+           top: 0;
+           left: 0;
+           right: 0;
+           padding: 1rem 2rem;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           z-index: 100;
+           border-bottom: 1px solid rgba(255,255,255,0.1);
+           background: rgba(0,0,0,0.5);
+       }
+
+       .logo {
+           font-size: 2rem;
+           font-weight: 500;
+           letter-spacing: 0.1em;
+           color: white;
+           text-decoration: none;
+       }
+
+       .nav-links {
+           display: flex;
+           gap: 2rem;
+           align-items: center;
+       }
+
+       .nav-links a {
+           color: white;
+           text-decoration: none;
+           font-size: 0.9rem;
+           letter-spacing: 0.1em;
+           text-transform: uppercase;
+       }
+
+       .content {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           text-align: center;
+           width: 100%;
+           padding: 0 2rem;
+       }
+   </style>
+</head>
+<body>
+   <div class="container">
+       <header class="header">
+           <a href="/" class="logo">SECTION G</a>
+           <nav class="nav-links">
+               <a href="#">Films</a>
+               <a href="#">Projects</a>
+               <a href="#">About</a>
+               <a href="#">Contact</a>
+           </nav>
+       </header>
+       
+       <div class="content">
+           <!-- Additional content here -->
+       </div>
+   </div>
+</body>
+</html>
